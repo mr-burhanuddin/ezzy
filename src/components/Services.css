@@ -1,0 +1,61 @@
+.servicecards__item{
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: scale(1.07);
+  }
+  .fa-rupee-sign,
+  .fa-clock,
+  .fa-history,
+  .fa-check {
+      color: springgreen;
+      margin: 2px;
+      padding: 2px;
+  }
+  
+ 
+  
+  .card__info {
+      margin-top: -9px;
+      border-radius: 10px;
+      padding: 20px;
+      padding-top: 20px;
+      border: 1;
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      
+    }
+  
+    .card__info > h2 {
+      font-size: 24px;
+      font-weight: 100;
+      margin: 10px;
+      color: yellowgreen;
+  
+    }
+    .btns{
+        color: rgb(58, 58, 58);
+        margin: 10px;
+        background-color: transparent;
+        padding: 8px 20px;
+        border: 1px solid seagreen;
+        transition: all 0.3s ease-out;
+    }
+    
+    .card__info > h3 {
+      font-size: 14px;
+      font-weight: 100;
+      
+      margin: 30px;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      border-radius: 10px;
+    }

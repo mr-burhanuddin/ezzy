@@ -1,0 +1,124 @@
+.contactContainer {
+  width: 100%;
+  height: auto;
+}
+
+.container__social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.social__whatsapp,
+.social__instagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social__text {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #075e54;
+  border: 1px solid #075e54;
+  padding: 8px 20px;
+  border-radius: 25px;
+}
+.social__textInsta {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #bc2a8d;
+  border: 1px solid #bc2a8d;
+  padding: 8px 20px;
+  border-radius: 25px;
+}
+
+.container__location {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 55px;
+  border-top: 0.5px solid whitesmoke;
+}
+.location__heading {
+  font-family: 'Rock Salt', cursive;
+  color: rgb(255, 135, 135);
+  font-size: 2rem;
+  -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+}
+
+.location__link {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3c5836;
+  border: 1px solid #505050;
+  padding: 8px 20px;
+  margin: 25px;
+  border-radius: 25px;
+}
+
+.container__contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 55px;
+  border: 0.5px solid whitesmoke;
+}
+
+.contact__number {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .socialIcon {
+    height: 70px;
+    width: 70px;
+  }
+  .social__text,
+  .social__textInsta {
+    font-size: 0.5rem;
+  }
+  .location__heading {
+    font-size: 1.7rem;
+  }
+  .contact__number {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 426px) {
+  .socialIcon {
+    height: 70px;
+    width: 70px;
+  }
+  .social__text,
+  .social__textInsta {
+    font-size: 0.5rem;
+  }
+  .location__heading {
+    font-size: 1.5rem;
+  }
+  .contact__number {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 376px) {
+  .socialIcon {
+    height: 50px;
+    width: 50px;
+  }
+  .social__text,
+  .social__textInsta {
+    font-size: 0.5rem;
+  }
+  .location__heading {
+    font-size: 1rem;
+  }
+  .contact__number {
+    font-size: 0.9rem;
+  }
+}

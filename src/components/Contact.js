@@ -13,7 +13,7 @@ function Contact() {
           <img className='socialIcon' src={whatsapp} alt='whatsapp' />
           <a
             className='social__text'
-            href='https://api.whatsapp.com/send/?phone=917875439752'
+            href='https://api.whatsapp.com/send/?phone=917276012153'
           >
             {' '}
             Chat On WhatsApp
@@ -31,7 +31,7 @@ function Contact() {
         </div>
       </div>
       <div className='container__location'>
-        <h3 className='location__heading'>Our Shop Location</h3>
+        <h3 className='location__heading'>Locate Us</h3>
         <img className='location__icon' src={location} alt='location' />
         <h4 className='location__text'>
           "188, Nandanvanam Main Rd, Shiv Nagar, Azamshah Layout, Nagpur,
@@ -39,7 +39,7 @@ function Contact() {
         </h4>
         <a
           className='location__link'
-          href='https://goo.gl/maps/6VSJnY4dHbsPJoUi7'
+          href='https://g.page/Ezzy-hardware-paints-asianpaints?share'
         >
           Open In Google Maps
         </a>

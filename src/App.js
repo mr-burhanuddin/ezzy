@@ -1,5 +1,10 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Services from './components/Services';
@@ -17,6 +22,9 @@ function App() {
           <Route path='/services' component={Services} />
           <Route path='/products' component={Products} />
           <Route path='/contact' component={Contact} />
+          <Route path='*'>
+            <Redirect to='/' />
+          </Route>
         </Switch>
         <Footer />
       </Router>

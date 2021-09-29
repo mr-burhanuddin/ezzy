@@ -11,10 +11,10 @@
 }
 
 .hero-container > h1 {
-  font-family: 'Poor Richard';
+  font-family: 'Kalam', cursive;
   font-size: 65px;
   color: #4a0404;
-  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  -webkit-text-stroke: 0.01rem rgb(255, 255, 255);
   margin-top: -100px;
 }
 

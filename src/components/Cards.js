@@ -37,7 +37,7 @@ function Cards() {
             />
             <CardItem
               src='https://images.unsplash.com/photo-1610963490387-0c08126eacf8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80'
-              text='cafe Design'
+              text='Text Random'
               label='Interior'
               path='/services'
             />
